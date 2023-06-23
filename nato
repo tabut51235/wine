@@ -1,0 +1,7 @@
+echo "# wine" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tabut51235/wine.git
+git push -u origin main
